@@ -1,0 +1,16 @@
+.card_container {
+	width: 80%;
+	margin: 30px auto;
+	padding: 30px;
+	border: 2px solid white;
+	border-radius: 20px;
+	min-height: 700px;
+}
+
+.card_conteiner__text {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	justify-content: center;
+	margin-bottom: 40px;
+}
