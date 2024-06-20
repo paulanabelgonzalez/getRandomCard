@@ -8,14 +8,9 @@ import "./App.css";
 function App() {
 	const [diceNumber, setDiceNumber] = useState(1);
 
-	const handleRollDice = () => {
-		let number = parseInt(Math.random() * 6 + 1);
-		setDiceNumber(number);
-	};
-
 	return (
 		<>
-			<RollButton diceNumber={diceNumber} rollDiceFunction={handleRollDice} />
+			<RollButton diceNumber={diceNumber} setDiceNumber={setDiceNumber} />
 
 			<CardContainer diceNumber={diceNumber} />
 		</>
